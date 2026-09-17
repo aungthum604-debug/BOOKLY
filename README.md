@@ -71,7 +71,7 @@ git clone https://github.com/aungthum604-debug/BOOKLY.git
 ## 2. Open the project folder
 
 ```bash
-cd ecommerce
+cd BOOKLY
 ```
 
 ## 3. Create a virtual environment
