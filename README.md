@@ -4,44 +4,44 @@ BOOKLY is a Django-based e-commerce web application for buying and managing book
 
 ## Features
 
-* User Registration & Login
-* User Authentication
-* Browse Books
-* Search Books
-* Filter Books by Category
-* Sort Books by Price and Date
-* Book Details
-* Shopping Cart
-* Add / Remove Cart Items
-* Wishlist
-* Checkout
-* Coupon / Discount System
-* Order Management
-* Customer Order History
-* Order Details
-* Customer Profile
-* Submit Review
-* Customer Order Cancellation
-* Book Reviews & Ratings
-* Admin Dashboard
-* Book Management
-* Category Management
-* Coupon Management
-* Order Management
-* Customer Management
-* Review Management
-* Report
+- User Registration & Login
+- User Authentication
+- Browse Books
+- Search Books
+- Filter Books by Category
+- Sort Books by Price and Date
+- Book Details
+- Shopping Cart
+- Add / Remove Cart Items
+- Wishlist
+- Checkout
+- Coupon / Discount System
+- Order Management
+- Customer Order History
+- Order Details
+- Customer Profile
+- Submit Review
+- Customer Order Cancellation
+- Book Reviews & Ratings
+- Admin Dashboard
+- Book Management
+- Category Management
+- Coupon Management
+- Order Management
+- Customer Management
+- Review Management
+- Report
 
 ## Technologies Used
 
-* Python
-* Django
-* SQLite
-* HTML
-* CSS
-* JavaScript
-* Bootstrap Icons
-* Lucide Icons
+- Python
+- Django
+- SQLite
+- HTML
+- CSS
+- JavaScript
+- Bootstrap Icons
+- Lucide Icons
 
 ## Project Structure
 
@@ -65,13 +65,13 @@ __ README.md
 ## 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/aungthum604-debug/BOOKLY.git
 ```
 
 ## 2. Open the project folder
 
 ```bash
-cd BOOKLY
+cd ecommerce
 ```
 
 ## 3. Create a virtual environment
