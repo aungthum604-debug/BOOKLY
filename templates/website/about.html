@@ -1,0 +1,243 @@
+{% extends 'website/base.html' %}
+{% load static %}
+
+{% block title %}
+    About Us - BOOKLY
+{% endblock %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'website/css/about.css' %}">
+{% endblock %}
+
+{% block main %}
+
+<div class="about-page">
+
+    <!-- Hero -->
+
+    <section class="about-hero">
+
+        <div class="about-hero-content">
+
+            <span class="about-label">
+                ABOUT BOOKLY
+            </span>
+
+            <h1>
+                Discover stories
+                <br>
+                that stay with you.
+            </h1>
+
+            <p>
+                BOOKLY is an online bookstore created for readers
+                who love discovering meaningful stories, exploring
+                new authors, and finding their next favorite book.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+
+    <section class="about-section">
+
+        <div class="about-content">
+
+            <div class="about-text">
+
+                <span class="section-label">
+                    WHO WE ARE
+                </span>
+
+                <h2>
+                    A place for every kind of reader.
+                </h2>
+
+                <p>
+                    At BOOKLY, we believe that a good book can change
+                    the way you see the world. Our goal is to make
+                    discovering and buying books simple, enjoyable,
+                    and accessible.
+                </p>
+
+                <p>
+                    From timeless classics to modern bestsellers,
+                    we bring together a collection of books for
+                    different interests, moods, and moments.
+                </p>
+
+            </div>
+
+            <div class="about-image">
+                <img
+                    src="{% static 'website/images/book/slide2.png' %}"
+                    alt="BOOKLY bookstore"
+                >
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Features -->
+
+    <section class="about-values">
+
+        <div class="section-heading">
+
+            <span class="section-label">
+                WHY BOOKLY
+            </span>
+
+            <h2>
+                More than just a bookstore.
+            </h2>
+
+            <p>
+                Everything we do is designed around making
+                your reading journey better.
+            </p>
+
+        </div>
+
+
+        <div class="values-grid">
+
+            <div class="value-card">
+
+                <div class="value-icon">
+                    <i data-lucide="book-open"></i>
+                </div>
+
+                <h3>
+                    Curated Books
+                </h3>
+
+                <p>
+                    Explore a carefully selected collection
+                    of books across different genres and interests.
+                </p>
+
+            </div>
+
+
+            <div class="value-card">
+
+                <div class="value-icon">
+                    <i data-lucide="search"></i>
+                </div>
+
+                <h3>
+                    Easy Discovery
+                </h3>
+
+                <p>
+                    Find books quickly with categories,
+                    search, ratings, and personalized browsing.
+                </p>
+
+            </div>
+
+
+            <div class="value-card">
+
+                <div class="value-icon">
+                    <i data-lucide="heart"></i>
+                </div>
+
+                <h3>
+                    Made for Readers
+                </h3>
+
+                <p>
+                    Save books you love, share your thoughts,
+                    and keep track of the stories you want to read.
+                </p>
+
+            </div>
+
+
+            <div class="value-card">
+
+                <div class="value-icon">
+                    <i data-lucide="shopping-bag"></i>
+                </div>
+
+                <h3>
+                    Simple Shopping
+                </h3>
+
+                <p>
+                    Add your favorite books to your cart and
+                    enjoy a simple and convenient checkout experience.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Mission -->
+
+    <section class="about-mission">
+
+        <div class="mission-content">
+
+            <span class="section-label">
+                OUR MISSION
+            </span>
+
+            <h2>
+                Helping readers find
+                their next great story.
+            </h2>
+
+            <p>
+                Whether you're looking for an inspiring idea,
+                an exciting adventure, a quiet escape, or simply
+                a good story before bed, BOOKLY is here to help
+                you find it.
+            </p>
+
+            <a href="{% url 'shop' %}" class="mission-btn">
+                Explore Books
+                <i data-lucide="arrow-right"></i>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- CTA -->
+
+    <section class="about-cta">
+
+        <div class="cta-content">
+
+            <h2>
+                Your next favorite book
+                might be waiting for you.
+            </h2>
+
+            <p>
+                Start exploring the BOOKLY collection today.
+            </p>
+
+            <a href="{% url 'shop' %}" class="cta-btn">
+                Browse Collection
+            </a>
+
+        </div>
+
+    </section>
+
+</div>
+
+{% endblock %}
